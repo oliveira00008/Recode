@@ -7,3 +7,21 @@ body{
 h3{
     color: red;
 }
+
+table{
+    background-color: red;
+    width: 100%;
+  
+}
+td a{
+    color: white;
+    
+}
+
+td{
+    text-align: center;
+}
+
+img.m{
+    width: 100px;
+}
