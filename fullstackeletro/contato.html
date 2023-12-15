@@ -13,7 +13,7 @@ h3{
     color: red;
 }
 
-table{
+table#p{
     background-color: red;
     width: 100%;
   
@@ -23,26 +23,52 @@ td a{
     
 }
 
-td{
+td#t{
     text-align: center;
 }
 
 img.m{
     width: 100px;
 }
+td.t1{
+    width: 50%;
+    text-align: center;
+}
+img.i{
+    width: 80px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.158) ;
+    border-radius:100px ;
+}
+
+p{
+    text-align: center;
+}
     </style>
 </head>
 <body>
-    <table>
+    <table id="p">
         <tr>
-            <td><img class="m" src="imagems/logo.jpeg" alt="logo"></td>
+            <td id="t"><img class="m" src="imagems/logo.jpeg" alt="logo"></td>
             <td><a href="index.html">Pagina inicial</a><td>
             <td><a href="produtos.html">Produtos</a></td>
-            <td><a href="loja.html">loja</a></td>
+            <td><a href="loja.html">Nossas loja</a></td>
         </tr>
     </table>
     <h2>Contato</h2>
     <hr>
-    <img src="imagems/bandeiras_cartoes1.png" alt="Formas de pagamentos">
+      <table cellpadding="100">
+        <tr>
+            <td class="t1">
+                <img class="i" src="imagems/logo-instagram.jpg" alt="logo-instagram"> <br>
+                bieloliveira0007@gmail.com 
+            </td>
+               
+            <td>
+                <img class="i" src="imagems/logo-twitter.jpg" alt="logo-twitter"> <br> 
+              telefone:(00) 0000-0000
+            </td>
+        </tr>
+      </table>
+    <p><img src="imagems/bandeiras_cartoes1.png" alt="Formas de pagamentos"> <br> Formas de Pagamentos</p>
 </body>
 </html>

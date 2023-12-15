@@ -5,44 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja eletro</title>
     <style>
-        body{
-    font-family: Arial, Helvetica, sans-serif;
-}
+                body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-h3{
-    color: red;
-}
+        h3{
+            text-align: center;
+            color: red;
+        }
 
-table{
-    background-color: red;
-    width: 100%;
-  
-}
-td a{
-    color: white;
-    
-}
+        table#principal{
+            background-color: red;
+            width: 100%;
+        
+        }
 
-td{
-    text-align: center;
-}
+        table.ta1{
+            border: 0px;
+            width: 100%;
 
-img.m{
-    width: 100px;
-}
+        }
+
+        td a{
+            color: rgb(255, 255, 255);
+            
+        }
+
+        td#td{
+            text-align: center;
+            
+        }
+
+        td.t1{
+            width: 33%;
+        }
+
+        img.m{
+            width: 100px;
+        }
+
+        
+        p{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <table>
+    <table id="principal">
         <tr>
-            <td><img class="m" src="imagems/logo.jpeg" alt="logo"></td>
+            <td id="td"><img class="m" src="imagems/logo.jpeg" alt="logo"></td>
             <td><a href="index.html">Pagina inicial</a><td>
             <td><a href="produtos.html">Produtos</a></td>
             <td><a href="contato.html"> Contato</a></td>
         </tr>
     </table>
-    <h2>Loja Eletro</h2>   
+    <h2>Nossa loja</h2>   
     <hr>
-    <img src="imagems/bandeiras_cartoes1.png" alt="Formas de pagamentos">
+    <table class="ta1" cellpadding="20">
+        <tr>
+            <td class="t1">
+                <h3>Rio de janeiro</h3>
+                <p>Avemida presidente vargas, Numero 5000</p>
+                <p>10&ordm; andar</p>
+                <p>Centro</p>
+                <p>(21) 3333-3333</p>
+            </td>
+            
+            <td>
+                <h3>Santa Catarina</h3>
+                <p>Rua major,&ordm;villa, 370</p>
+                <p>Villa Mariana</p>
+                <p>(47) 5555-5555</p>
+            </td>
+              
+            <td>
+                <h3>São Paulo</h3>
+                <p>Avenida paulista, Numero 900</p>
+                <p>3&ordm; andar</p>
+                <p>Jardim</p>
+                <p>(21) 4444-4444</p>
+            </td>
+        </tr>
+    </table>
+    <p><img src="imagems/bandeiras_cartoes1.png" alt="Formas de pagamentos"> <br> Formas de pagamentos</p>
 </body>
 </html>
