@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    text-align: center;
+    color: red;
+}
+
+table#principal{
+    background-color: red;
+    width: 100%;
+
+}
+
+table.ta1{
+    border: 0px;
+    width: 100%;
+
+}
+
+td a{
+    color: rgb(255, 255, 255);
+    
+}
+
+td#td{
+    text-align: center;
+    
+}
+
+td.t1{
+    width: 33%;
+}
+
+img.m{
+    width: 100px;
+}
+
+
+p{
+    text-align: center;
+}

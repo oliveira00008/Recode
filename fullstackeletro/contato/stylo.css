@@ -1,0 +1,41 @@
+
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: red;
+}
+
+table#p{
+    background-color: red;
+    width: 100%;
+  
+}
+td a{
+    color: white;
+    
+}
+
+td#t{
+    text-align: center;
+}
+
+img.m{
+    width: 100px;
+}
+td.t1{
+    width: 50%;
+    text-align: center;
+}
+img.i{
+    width: 80px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.158) ;
+    border-radius:100px ;
+}
+
+p{
+    text-align: center;
+}
