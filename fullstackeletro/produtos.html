@@ -22,13 +22,13 @@
             <td rowspan="5">
                 <h3>Categorias</h3>
                 <ul>
-                    <li>Geladeira (3)</li>
-                    <li>Fogoes (7)</li>
-                    <li>Microondas (6)</li>
-                    <li>Lavadora-louça (2)</li>
+                    <li onclick="exibir_categoria('geladera')" >Geladeira (3)</li>
+                    <li onclick="exibir_categoria('fogao')">Fogoes (7)</li>
+                    <li onclick="exibir_categoria('microondas')">Microondas (6)</li>
+                    <li onclick="exibir_categoria('lavadora')">Lavadora-louça (2)</li>
                 </ul>
             </td>
-            <td width="20%" align="cemter" valign="bottom">
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/refrigerator_PNG9062.png" alt="geladeira">
                 <br>
                 Geladeira Fost Free <br> 540 Litro.
@@ -37,7 +37,7 @@
                  <p>R$ 3.245,00</p><br>
             </td>
 
-            <td width="20%" align="cemter" valign="bottom">
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/refrigeraçao.png" alt="geladeira">
                 <br>
                 Geladeira Fost Free <br> 440 Litro.
@@ -46,7 +46,7 @@
                  <p>R$ 2.245,00</p><br>
             </td>
 
-            <td width="20%" align="cemter" valign="bottom">
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/microodas1.png" alt="geladeira">
                 <br>
                 microondas-sansugui <br> 340 Litro.
@@ -55,7 +55,7 @@
                  <p>R$ 445,00</p><br>
             </td>
 
-            <td width="20%" align="cemter" valign="bottom">
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/lava-louça.png" alt="geladeira">
                 <br>
                 Lava-louça<br> 350 Litro.
@@ -65,17 +65,17 @@
             </td>
         </tr>
 
-        <tr>
-            <td width="20%" align="cemter" valign="bottom">
+       
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/lavadora-de-roupas-automatica-brastemp-ative-11-kg-127v-grafite-metalico-19470.jpg" alt="lava roupa">
                 <br>
                 lavadora-de-roupas-automatica<br> 540 Litro.
                 <hr>
                 <strike>R$ 389,00</strike><br>
                  <p>R$ 299,00</p><br>
-            </td>
+           
 
-            <td width="20%" align="cemter" valign="bottom">
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/quina de lavar.png" alt="geladeira">
                 <br>
                 Maquna de lavar<br> 15 kg.
@@ -84,7 +84,7 @@
                  <p>R$ 745,00</p><br>
             </td>
 
-            <td width="20%" align="cemter" valign="bottom">
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/microodas.png" alt="microodas">
                 <br>
                  microndas<br> 250 Litro.
@@ -93,7 +93,7 @@
                  <p>R$ 305,00</p><br>
             </td>
 
-            <td width="20%" align="cemter" valign="bottom">
+            <td class="produto" width="20%" align="cemter" valign="bottom">
                 <img class="tam" src="imagems/Fogao_FC5VS_Continental-Frente.png" alt="geladeira">
                 <br>
                 Fogao_FC5VS_Continental<br> 340 Litro.
@@ -107,5 +107,7 @@
     <h4>Formas de pagamentos</h4>
     <p id="p"><img src="imagems/bandeiras_cartoes1.png" alt="Formas de pagamentos"></p>
     <p>&copy; Criado por Gabriel Alves </p>
+
+    <script src="javascript.js"></script>
 </body>
 </html>
